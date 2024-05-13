@@ -5,12 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <corners android:radius="25dp"/>
+        <solid android:color="@android:color/white"/>
+    </shape>
 
     <ImageView
-        android:layout_gravity="bottom"
         android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_gravity="bottom"
         android:contentDescription="@string/logoo"
         android:src="@drawable/logo" />
 </LinearLayout>
